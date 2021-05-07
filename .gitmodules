@@ -1,0 +1,6 @@
+[submodule "vim/pack/ellemouton/start/vim-go"]
+	path = vim/pack/ellemouton/start/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "vim/pack/ellemouton/start/nerdtree"]
+	path = vim/pack/ellemouton/start/nerdtree
+	url = git@github.com:preservim/nerdtree.git
