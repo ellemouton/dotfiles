@@ -8,6 +8,9 @@ syntax on
 " Show line numbers.
 set number 
 
+" Disable swapfile
+set noswapfile
+
 " Convert tabs to <tabstop> spaces
 set expandtab
 
@@ -115,4 +118,5 @@ set tags^=.git/tags;~
 
 "========== leader ======================
 let mapleader=","
+
 noremap <Leader>r :.Gbrowse @upstream
