@@ -120,3 +120,9 @@ set tags^=.git/tags;~
 let mapleader=","
 
 noremap <Leader>r :.Gbrowse @upstream
+
+"====== copy fro vim to system ==========
+
+set clipboard=unnamed
+
+
