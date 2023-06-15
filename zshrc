@@ -26,6 +26,9 @@ set -o vi
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+## source helper functions bash script file.
+source /Users/elle/dotfiles/funcs.sh
+
 # environment variables
 
 # aliases
@@ -49,6 +52,7 @@ alias gla="git log --oneline --graph --all"
 alias gca="git commit --amend"
 alias grm="git rebase -i master"
 alias gas="git rebase --autosquash -i master"
+alias gpr="update_pr_ref_and_checkout"
 
 ## ssh 
 alias hetzner="ssh admin@135.181.199.179"
@@ -59,3 +63,4 @@ complete -C aws_completer aws
 
 ## regtest env setup
 # source /Users/elle/LL/dev-resources/functions.sh
+
